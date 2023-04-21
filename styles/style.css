@@ -37,7 +37,7 @@ a{
 }
 
 a:hover{
-    color: rgb(132, 14, 201);
+    color: rgb(37, 150, 190);
     transition: 0.3s all;
 }
 
@@ -59,7 +59,7 @@ h2{
 }
 
 span{
-    color: rgb(132, 14, 201);
+    color: rgb(37, 150, 190);
 }
 
 p{
