@@ -81,3 +81,10 @@ p{
 img{
     width: 580px;
 }
+
+#title .logo img
+{
+    width: 100px;
+    height: 100px;
+    padding-right: 10px;
+}
