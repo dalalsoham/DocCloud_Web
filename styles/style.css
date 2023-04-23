@@ -234,3 +234,35 @@ img{
     line-height: 1.5;
     color: #666;
   }
+  /* icons design starts */
+  .features{
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    gap: 1.5rem;
+    padding: 1rem 0;
+  }
+  .features .box{
+    flex: 1 1 25rem;
+    padding: 1rem;
+    text-align: center;
+  }
+  .features .box img{
+   width: 60%;
+   height: 60%;
+   border-radius: 50%;
+   border: .1rem groove rgb(37,150,190);
+   box-shadow: 0 .5rem 1rem rgba(27, 5, 83, 0.5);
+   transition: 0.5s ease;
+  }
+  
+  .features .box img:hover img{
+    /* width: 50px; */
+    transform: scale(1.2);
+  }
+  .features .box h1{
+    font-size: 1.5rem;
+    color: var(--deep_blue);
+    font-weight: bold;
+    padding: 1rem;
+  }
